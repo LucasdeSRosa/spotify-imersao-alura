@@ -40,3 +40,17 @@ const observer = new ResizeObserver(() => {  //mudanças no tamanho do elemento
 });
 //observando a mudança do elemento
 observer.observe(container);
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const footer = document.querySelector(".disclaimer-premium");
+  const closeButton = document.getElementById("close-footer");
+
+  // Mostrar o footer ao carregar a página
+  footer.style.display = "flex";
+
+  // Adicionar evento de clique ao botão de fechar
+  closeButton.addEventListener("click", function() {
+      footer.style.display = "none";
+  });
+});
