@@ -1,7 +1,7 @@
 /* HEADER */
 .main-container {
   max-width: 80vw;
-  height: 100vh;
+  height: auto;
   margin-left: 320px;
   margin-right: 12px;
 }
@@ -74,7 +74,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   align-items: center;
   width: 364px;
   height: 48px;
-  margin-left: 8px;
+  margin-left: 32px;
   background-color: #242424;
   border-radius: 500px;
   border: 1px solid transparent;

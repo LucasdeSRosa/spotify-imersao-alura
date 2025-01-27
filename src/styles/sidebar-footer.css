@@ -5,6 +5,9 @@
     width: 300px;
     background-color: #000000;
     padding: 12px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebar .logo {
