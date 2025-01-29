@@ -1,9 +1,9 @@
 /* HEADER */
 .main-container {
   max-width: 80vw;
-  height: auto;
+  height: 100vh;
   margin-left: 320px;
-  margin-right: 12px;
+  margin-right: 0px;
 }
 
 /* DISPLAY * TOTAL e vamos passar rapidamente por cada um deles
@@ -33,11 +33,11 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   /* ESSES detalhes que tem dentro do display flex, mostra no navegador como fica */
   justify-content: space-between;
   align-items: center;
-  padding: 16px;
+  padding: 14px;
   margin: 10px;
+  margin-top: 12px;
   border-radius: 8px;
   background-color: #121212;
-  /* padding: 12px; */
 }
 
 .header__navigation .navigation {
@@ -135,7 +135,6 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 
 /* PLAYLIST */
 .playlist-container {
-  height: 68vh;
   padding-top: 16px;
   margin: 10px;
   border-radius: 10px;

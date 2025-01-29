@@ -8,6 +8,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .sidebar .logo {
@@ -58,7 +59,7 @@
     background-color: #121212;
     border-radius: 8px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     min-block-size: 40px;
     padding: 4px 8px;
     color: #b3b3b3;
@@ -66,6 +67,8 @@
     font-size: 14px;
     margin-top: 10px;
     flex-direction: column;
+    flex-grow: 1;
+    margin-bottom: 24px;
 }
 
 .library .library__button {
@@ -152,6 +155,8 @@
 
 .sidebar .cookies {
     margin: 25px 20px;
+    position: fixed;
+    bottom: 0;
 }
 
 .sidebar .cookies a {
@@ -176,6 +181,8 @@
     width: 170px;
     margin: 8px;
     font-weight: bold;
+    position: fixed;
+    bottom: 40px;
 }
 
 .disclaimer-premium {
