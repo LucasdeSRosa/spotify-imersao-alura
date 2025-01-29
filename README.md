@@ -12,6 +12,7 @@ Otimização de performance para elementos gráficos
 Organização de código seguindo boas práticas
 
 🙌 Agradecimentos
+
 À equipe da Alura pelo material didático
 
 Spotify® pela interface original que serviu de referência
