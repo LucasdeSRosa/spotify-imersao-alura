@@ -1,3 +1,5 @@
+Projeto de cópia do Spotify para treinamento e aprendizado de boas práticas de desenvolvimento, utilizando as principais linguagens web. Adicionei alterações próprias como ajustes visuais, um botão para fechar o disclaimer de anúncio, e um layout otimizado para visualização em dispositivos menores, como celulares ou tablets.
+
 📚 Aprendizados Principais
 Técnicas avançadas de posicionamento CSS
 
@@ -9,18 +11,7 @@ Otimização de performance para elementos gráficos
 
 Organização de código seguindo boas práticas
 
-🤝 Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para:
-
-Reportar issues
-
-Sugerir melhorias de design
-
-Otimizar o código existente
-
 🙌 Agradecimentos
 À equipe da Alura pelo material didático
-
-Comunidade de desenvolvimento front-end por inspirações
 
 Spotify® pela interface original que serviu de referência
