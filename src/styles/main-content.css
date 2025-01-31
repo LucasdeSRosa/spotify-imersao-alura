@@ -139,6 +139,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   margin: 10px;
   border-radius: 10px;
   background-color: #121212;
+  padding-bottom: 1px;
 }
 
 .playlist {
@@ -160,9 +161,10 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 
 /* SCROLL */
 .offer__scroll-container {
-  max-height: 43vh;
+  max-height: 60vh;
   margin: 24px;
-  overflow-y: auto;
+  overflow-y: scroll;
+  padding-bottom: 24px;
 }
 
 .offer__scroll-container::-webkit-scrollbar {
@@ -196,9 +198,9 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   position: relative; /* relative:
                           Comportamento em relação a si mesmo: O elemento é posicionado em relação à sua posição original.
                           Mantém espaço original: O espaço original que o elemento ocuparia não é alterado, mas você pode movê-lo com top, right, bottom ou left. */
-  width: 220px;
+  width: 200;
   height: 200px;
-  overflow: hidden;
+  overflow:hidden;
   border-radius: 8px;
 }
 
